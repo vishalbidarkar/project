@@ -1,0 +1,32 @@
+{
+    "main.css": [
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 11 2021 23:15:47",
+            "keyStrokeInfo": "{{ url_for('static', filename='main.css') }}\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 11 2021 23:15:50",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 36,
+            "keyStrokeTimeStamp": "Sun Apr 11 2021 23:16:20",
+            "keyStrokeInfo": "            .header {\r\n                overflow: hidden;\r\n                background-color: #f1f1f1;\r\n                padding: 20px 10px;\r\n                font-size: 18;\r\n                color: rebeccapurple;\r\n            }\r\n            body{\r\n                text-align: center;\r\n                background-color: powderblue;\r\n            }\r\n            input[type=text],input[type=email],input[type=password], select{\r\n                \r\n                width: 60%;\r\n                padding: 15px 50px;\r\n                margin: 8px 0;\r\n                display: inline-block;\r\n                border: 1px solid #ccc;\r\n                border-radius: 4px;\r\n                box-sizing: border-box;\r\n            \r\n            }\r\n            button {\r\n                width: 60%;\r\n                background-color: #4CAF50;\r\n                color: white;\r\n                padding: 14px 20px;\r\n                margin: 8px 0;\r\n                border: none;\r\n                border-radius: 4px;\r\n                cursor: pointer;\r\n            }\r\n\r\n            button:hover {\r\n                background-color: #45a049;\r\n            }",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 11 2021 23:16:20",
+            "keyStrokeInfo": "",
+            "position": "36,1"
+        }
+    ]
+}
