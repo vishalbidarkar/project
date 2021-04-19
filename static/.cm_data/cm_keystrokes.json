@@ -27,6 +27,41 @@
             "keyStrokeTimeStamp": "Sun Apr 11 2021 23:16:20",
             "keyStrokeInfo": "",
             "position": "36,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:51:08",
+            "keyStrokeInfo": "rgb(125, 192, 201)",
+            "position": "10,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:51:10",
+            "keyStrokeInfo": "rgb(125, 164, 201)",
+            "position": "10,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:51:18",
+            "keyStrokeInfo": "rgb(63, 111, 155)",
+            "position": "10,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:51:22",
+            "keyStrokeInfo": "rgb(35, 66, 95)",
+            "position": "10,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:51:32",
+            "keyStrokeInfo": "rgb(95, 35, 70)",
+            "position": "10,23"
         }
     ]
 }

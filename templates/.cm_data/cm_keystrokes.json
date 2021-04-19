@@ -566,6 +566,90 @@
             "keyStrokeTimeStamp": "Sun Apr 11 2021 23:43:53",
             "keyStrokeInfo": "",
             "position": "4,82"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 52,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:12",
+            "keyStrokeInfo": "<html>\n    <head>\n<link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n        \n         <style>\n            .header {\n                overflow: hidden;\n                background:-webkit-radial-gradient( #F8A4D8 , #6C63FF);\n\n                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;\n                padding: 20px 10px;\n                font-size: 18;\n                color: rebeccapurple;\n            } \n\n            \n\n        </style> \n        <title>Register</title>\n    </head>\n    <body>\n        <div class=\"header\" >\n            <h1 align= center >Registration Details</h1>\n        </div>\n<div class=\"card p-5 bg-dark \">\n        <form action=\"/submit\" method=\"post\" align=center>\n            <input type=\"text\" name=\"name\" placeholder=\"Enter your name\" required><br><br>\n            <input type=\"password\" name=\"password\" placeholder=\"Enter your password\" required><br><br>\n            <input type=\"text\" name=\"mobile\" placeholder=\"Enter mobile number\" required><br><br>\n            <input type=\"date\" name=\"dob\" placeholder=\"Enter Date Of Birth\" required><br><br>\n            <input type=\"email\" name=\"email\" placeholder=\"Enter your Email\" required><br><br>\n            <input type=\"radio\" id=\"male\" name=\"gender\" value=\"Male\" >\n            <label for=\"male\" style=\"color:white\">Male</label>\n            <input type=\"radio\" id=\"female\" name=\"gender\" value=\"Female\">\n            <label for=\"female\"  style=\"color:white\">Female</label>\n            <input type=\"radio\" id=\"other\" name=\"gender\" value=\"other\">\n            <label for=\"other\" style=\"color:white\">Other</label><br><br>\n\n            <button>Submit</button> \n\n            <br>\n            <br>\n\n            <p style=\"color: white;\"  align=center> Already existing user <a href=\"{{ url_for('login') }}\"> Click Here</a></p>\n            <p style=\"color: white;\"  align=center>Home Page<a href=\"{{ url_for('index') }}\"> Click Here</a></p>\n        </form>\n    </div>\n    </body>\n    \n</html>       \n",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:25",
+            "keyStrokeInfo": "#550135",
+            "position": "10,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:29",
+            "keyStrokeInfo": "#01550c",
+            "position": "10,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:32",
+            "keyStrokeInfo": "#07360e",
+            "position": "10,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:42",
+            "keyStrokeInfo": "#060169",
+            "position": "10,63"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:45",
+            "keyStrokeInfo": "#060169ad",
+            "position": "10,63"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:03",
+            "keyStrokeInfo": "#060169",
+            "position": "10,63"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:04",
+            "keyStrokeInfo": "#6C63FF",
+            "position": "10,63"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:04",
+            "keyStrokeInfo": "#01550c",
+            "position": "10,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:04",
+            "keyStrokeInfo": "#550135",
+            "position": "10,53"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:05",
+            "keyStrokeInfo": "#F8A4D8",
+            "position": "10,53"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 30,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:05",
+            "keyStrokeInfo": "<html>\n    <head>\n        \n        <link rel=\"stylesheet\" href=\"{{ url_for('static', filename='main.css') }}\">\n\n    </head>\n    <body>\n        <div class=\"header\">\n            <h1>Registration Details</h1>\n        </div>\n        <h2>Submit your details to register !!!</h2>\n        <form action=\"\\submit\" method=\"post\">\n            <input type=\"text\" name=\"name\" placeholder=\"Enter your name\" required><br><br>\n            <input type=\"password\" name=\"password\" placeholder=\"Enter your password\" required><br><br>\n            <input type=\"text\" name=\"mobile\" placeholder=\"Enter valid mobile number\" required><br><br>\n            <input type=\"date\" name=\"dob\" placeholder=\"Enter Date Of Birth\" required><br><br>\n            <input type=\"email\" name=\"email\" placeholder=\"Enter your Email\" required><br><br>\n            <input type=\"radio\" id=\"male\" name=\"gender\" value=\"Male\" >\n            <label for=\"male\">Male</label>\n            <input type=\"radio\" id=\"female\" name=\"gender\" value=\"Female\">\n            <label for=\"female\">Female</label>\n            <input type=\"radio\" id=\"other\" name=\"gender\" value=\"other\">\n            <label for=\"other\">Other</label><br><br>\n\n            <button>Submit</button> \n\n        </form>\n    </body>\n    \n</html>       \n",
+            "position": "1,1"
         }
     ],
     "index.html": [
@@ -750,6 +834,728 @@
             "keyStrokeTimeStamp": "Sun Apr 11 2021 23:19:45",
             "keyStrokeInfo": "e",
             "position": "8,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:01",
+            "keyStrokeInfo": "",
+            "position": "10,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:01",
+            "keyStrokeInfo": "",
+            "position": "10,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:01",
+            "keyStrokeInfo": "",
+            "position": "10,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:01",
+            "keyStrokeInfo": "",
+            "position": "10,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:02",
+            "keyStrokeInfo": "",
+            "position": "10,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:02",
+            "keyStrokeInfo": "",
+            "position": "10,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:03",
+            "keyStrokeInfo": "s",
+            "position": "10,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:03",
+            "keyStrokeInfo": "i",
+            "position": "10,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:03",
+            "keyStrokeInfo": "g",
+            "position": "10,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:04",
+            "keyStrokeInfo": "n",
+            "position": "10,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:04",
+            "keyStrokeInfo": "i",
+            "position": "10,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:04",
+            "keyStrokeInfo": "n",
+            "position": "10,19"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:07",
+            "keyStrokeInfo": "signin.html",
+            "position": "10,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:14",
+            "keyStrokeInfo": "",
+            "position": "10,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:15",
+            "keyStrokeInfo": "",
+            "position": "10,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:15",
+            "keyStrokeInfo": "",
+            "position": "10,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:15",
+            "keyStrokeInfo": "",
+            "position": "10,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:16",
+            "keyStrokeInfo": "",
+            "position": "10,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:17",
+            "keyStrokeInfo": "/",
+            "position": "10,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:18",
+            "keyStrokeInfo": "l",
+            "position": "10,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:18",
+            "keyStrokeInfo": "o",
+            "position": "10,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:18",
+            "keyStrokeInfo": "g",
+            "position": "10,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:19",
+            "keyStrokeInfo": "i",
+            "position": "10,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:59:19",
+            "keyStrokeInfo": "n",
+            "position": "10,19"
+        }
+    ],
+    "layout.html": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:49:28",
+            "keyStrokeInfo": "#1d241d",
+            "position": "8,35"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:49:32",
+            "keyStrokeInfo": "#1d2124",
+            "position": "8,35"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:49:35",
+            "keyStrokeInfo": "#3b6180",
+            "position": "8,35"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Apr 12 2021 15:49:39",
+            "keyStrokeInfo": "",
+            "position": "8,44"
+        }
+    ],
+    "SignIn.html": [
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:22",
+            "keyStrokeInfo": "\n        ",
+            "position": "6,25"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:22",
+            "keyStrokeInfo": "<div class=\"card p-5 bg-dark \">\n        <form action=\"/submit1\" method=\"post\" align=center>\n            <input type=\"text\" name=\"name\" placeholder=\"Enter your name\" required><br><br>\n            <input type=\"password\" name=\"password\" placeholder=\"Enter your password\" required><br><br>\n            <button>Submit</button> \n\n            <br>\n            <br>\n            <p style=\"color: white;\"  align=center>New User <a href=\"{{ url_for('register') }}\"> Click Here</a></p>\n            <p style=\"color: white;\"  align=center>Home Page<a href=\"{{ url_for('index') }}\"> Click Here</a></p>\n\n        </form>  \n    </div>\n",
+            "position": "7,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:22",
+            "keyStrokeInfo": "            ",
+            "position": "20,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:53",
+            "keyStrokeInfo": "",
+            "position": "7,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:54",
+            "keyStrokeInfo": "",
+            "position": "7,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:08:55",
+            "keyStrokeInfo": "",
+            "position": "7,13"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:12",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.582)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:14",
+            "keyStrokeInfo": "rgba(77, 37, 37, 0.582)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:16",
+            "keyStrokeInfo": "rgba(77, 37, 37, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:18",
+            "keyStrokeInfo": "rgba(37, 54, 77, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:22",
+            "keyStrokeInfo": "rgba(35, 93, 168, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:22",
+            "keyStrokeInfo": "rgba(35, 93, 168, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:23",
+            "keyStrokeInfo": "rgba(32, 72, 124, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:24",
+            "keyStrokeInfo": "rgba(10, 16, 26, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:25",
+            "keyStrokeInfo": "rgba(41, 49, 59, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:30",
+            "keyStrokeInfo": "rgba(1, 56, 128, 0.281)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:33",
+            "keyStrokeInfo": "rgb(1, 56, 128)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:35",
+            "keyStrokeInfo": "rgb(4, 61, 136)",
+            "position": "15,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:36",
+            "keyStrokeInfo": "rgb(4, 60, 134)",
+            "position": "15,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:49",
+            "keyStrokeInfo": "",
+            "position": "16,38"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:49",
+            "keyStrokeInfo": "",
+            "position": "16,37"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:49",
+            "keyStrokeInfo": "",
+            "position": "16,36"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:50",
+            "keyStrokeInfo": "",
+            "position": "16,35"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:50",
+            "keyStrokeInfo": "",
+            "position": "16,34"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:51",
+            "keyStrokeInfo": "rgb(4, 60, 134);",
+            "position": "16,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:09:53",
+            "keyStrokeInfo": "",
+            "position": "16,49"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 49,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:49",
+            "keyStrokeInfo": "<html>\n    <head>\n\n\n        <link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\n        <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"></script>\n        <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>\n        <style>\n\n\n            .header {\n                overflow: hidden;\n                background:-webkit-radial-gradient( #F8A4D8 , #6C63FF);\n\n                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;\n                padding: 20px 10px;\n                font-size: 18;\n                color: rebeccapurple;\n            } \n\n            \n\n        </style>\n\n    </head>\n    <body>\n        <div class=\"header\">\n        <h1 align=center>Login</h1>\n    </div>\n\n\n    <div class=\"card p-5 bg-dark \">\n        <form action=\"/submit1\" method=\"post\" align=center>\n            <input type=\"text\" name=\"name\" placeholder=\"Enter your name\" required><br><br>\n            <input type=\"password\" name=\"password\" placeholder=\"Enter your password\" required><br><br>\n            <button>Submit</button> \n\n            <br>\n            <br>\n            <p style=\"color: white;\"  align=center>New User <a href=\"{{ url_for('register') }}\"> Click Here</a></p>\n            <p style=\"color: white;\"  align=center>Home Page<a href=\"{{ url_for('index') }}\"> Click Here</a></p>\n\n        </form>  \n    </div>\n    <!-- <div class=\"card p-5 bg-dark \">\n        <p style=\"color: white;\"  align=center>New User <a href=\"{{ url_for('register') }}\"> Click Here</a></p>\n    </div> -->\n    </body>\n</html>",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:03",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:17",
+            "keyStrokeInfo": "",
+            "position": "17,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:25",
+            "keyStrokeInfo": "",
+            "position": "30,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:47",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.829)",
+            "position": "25,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:51",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.829)",
+            "position": "25,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:36:20",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.685)",
+            "position": "26,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:36:21",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.842)",
+            "position": "26,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:36:26",
+            "keyStrokeInfo": "rgba(255, 255, 255, 0.842)",
+            "position": "26,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:36:29",
+            "keyStrokeInfo": "rgba(2, 52, 110, 0.842)",
+            "position": "26,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:36:47",
+            "keyStrokeInfo": "rgba(2, 52, 110, 0.842)",
+            "position": "25,30"
+        }
+    ],
+    "submit.html": [
+        {
+            "operation": "PASTE",
+            "lines": 60,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:36",
+            "keyStrokeInfo": "{% extends \"layout.html\"%}\n\n<head>\n    <style>\n    table {\n      font-family: arial, sans-serif;\n      border-collapse: collapse;\n      width: 100%;\n    }\n    \n    td, th {\n      border: 3px solid #0a0a0a;\n      text-align: left;\n      padding: 8px;\n    }\n \n    </style>\n    </head>\n<body style=\"background:-webkit-linear-gradient(left, #ffff66 0%, #ff99cc 100%);\"></body>\n\n\n{% block body %}\n\n\n<h1><i>Registered Details</h1></i>\n<table class=\"table\">\n    <thead>\n       \n       <tr>\n          <th >Name</th>\n          <!-- <th >password</th> -->\n          <th>mobile</th>\n          <th>Date of Birth</th>\n          <th>email</th>\n          <th>gender</th>\n          <th>timestamp</th>\n        \n       </tr>\n    </thead>\n    \n    <tbody>\n       {% for user in users %}\n       <tr>\n        <td >{{ user.name }}</td>\n        <!-- <td >{{ user.password }}</td> -->\n        <td>{{user.mobile}}</td>\n        <td>{{user.dob}}</td>\n        <td>{{user.email}}</td>\n        <td>{{user.gender}}</td>\n        <td>{{user.timestamp}}</td>\n      \n     </tr>\n\n       {% endfor %}\n    </tbody>\n    \n </table>\n    \n\n{% endblock %}",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:42",
+            "keyStrokeInfo": "",
+            "position": "45,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:42",
+            "keyStrokeInfo": "",
+            "position": "44,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:46",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:46",
+            "keyStrokeInfo": "",
+            "position": "30,25"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:04",
+            "keyStrokeInfo": "#6966ff",
+            "position": "19,55"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:09",
+            "keyStrokeInfo": "#030092",
+            "position": "19,55"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:18",
+            "keyStrokeInfo": "#e2328a",
+            "position": "19,67"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:19",
+            "keyStrokeInfo": "#e2328ab2",
+            "position": "19,67"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:21",
+            "keyStrokeInfo": "#e2328a81",
+            "position": "19,67"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:23",
+            "keyStrokeInfo": "#7c084281",
+            "position": "19,67"
+        }
+    ],
+    "welcome.html": [
+        {
+            "operation": "PASTE",
+            "lines": 50,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:39:09",
+            "keyStrokeInfo": "{% extends \"layout.html\" %}\r\n\r\n{% block heading %}\r\n\r\n{% endblock %}\r\n\r\n{% block body %}\r\n\r\n   <div class=\"header\" align=center> <h1>Hello {{names}} </h1>   </div>\r\n   <a class=\"button has-text-danger text-right\" href=\"{{ url_for('login') }}\">\r\n      <button type=\"button\" class=\"btn btn-outline-info btn-lg \">Logout</button>\r\n      </a>\r\n\r\n<div>\r\n\r\n\r\n    <div class=\"search-container\" align=center >\r\n        <form action=\"/search\", method ='POST'>\r\n          <input type=\"text\" placeholder=\"Search\" name=\"search\">\r\n          <button> Search </button>\r\n        </form>\r\n      </div>\r\n<h1><i>Book Details</h1></i>\r\n<table class=\"table table-striped\">\r\n    <thead>\r\n       \r\n       <tr>\r\n          <th >Title</th>\r\n          <th>Author</th>\r\n          <th>Year</th>\r\n       </tr>\r\n    </thead>\r\n    <tbody>\r\n      {% for i in users  %}\r\n         {% if i.isbn==name or i.author==name or i.title==name or i.year==name %}\r\n        <tr>\r\n\r\n         <td>{{i.title}}</td>\r\n         <td>{{i.author}}</td>\r\n         <td>{{i.year}}</td>\r\n\r\n      </tr>\r\n      {% endif %}\r\n         {% endfor %}\r\n     </tbody>\r\n     <!-- <a class=\"button has-text-danger\" href=\"{{ url_for('login') }}\">\r\n      <strong>Logout</strong>\r\n      </a> -->\r\n</div>\r\n{% endblock %}\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:39:13",
+            "keyStrokeInfo": "",
+            "position": "46,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:39:48",
+            "keyStrokeInfo": "",
+            "position": "9,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:39:49",
+            "keyStrokeInfo": " ",
+            "position": "9,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:03",
+            "keyStrokeInfo": "",
+            "position": "10,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:15",
+            "keyStrokeInfo": "",
+            "position": "11,29"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:29",
+            "keyStrokeInfo": "",
+            "position": "24,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:29",
+            "keyStrokeInfo": "",
+            "position": "24,32"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:30",
+            "keyStrokeInfo": "",
+            "position": "24,31"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:30",
+            "keyStrokeInfo": "",
+            "position": "24,30"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:30",
+            "keyStrokeInfo": "",
+            "position": "24,29"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:30",
+            "keyStrokeInfo": "",
+            "position": "24,28"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:30",
+            "keyStrokeInfo": "",
+            "position": "24,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:31",
+            "keyStrokeInfo": "",
+            "position": "24,26"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:33",
+            "keyStrokeInfo": "",
+            "position": "24,25"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:33",
+            "keyStrokeInfo": "",
+            "position": "24,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:33",
+            "keyStrokeInfo": "",
+            "position": "24,23"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:34",
+            "keyStrokeInfo": "",
+            "position": "24,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:34",
+            "keyStrokeInfo": "",
+            "position": "24,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:40:34",
+            "keyStrokeInfo": "",
+            "position": "24,20"
         }
     ]
 }
