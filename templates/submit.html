@@ -16,7 +16,7 @@
  
     </style>
     </head>
-<body style="background:-webkit-linear-gradient(left, #030092 0%, #7c084281 100%);"></body>
+<body style="background:-webkit-linear-gradient(left, #ffff66 0%, #ff99cc 100%);"></body>
 
 
 {% block body %}
@@ -28,6 +28,7 @@
        
        <tr>
           <th >Name</th>
+          <!-- <th >password</th> -->
           <th>mobile</th>
           <th>Date of Birth</th>
           <th>email</th>
@@ -41,6 +42,7 @@
        {% for user in users %}
        <tr>
         <td >{{ user.name }}</td>
+        <!-- <td >{{ user.password }}</td> -->
         <td>{{user.mobile}}</td>
         <td>{{user.dob}}</td>
         <td>{{user.email}}</td>

@@ -1,51 +1,36 @@
 <html>
     <head>
-        <title>My website</title>
-        
-
+        <title>Books</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='BOOKS.jpg') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
         <style>
-            a {
-                background-color: #3b6180; 
-                border: none;
-                color: white;
-                padding: 16px 40px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                transition-duration: 0.4s;
-                cursor: pointer;
-            }
 
-            .button1 {
-                background-color: white; 
-                color: black; 
-                border: 2px solid #08767e;
-            }
 
-            .button1:hover {
-                background-color: #05177ec9;
-                color: white;
-            }
+            .header {
+                overflow: hidden;
+                background:#095a91;;
 
-            .button2 {
-                background-color: white; 
-                color: black; 
-                border: 2px solid #5700ba;
-            }
-
-            .button2:hover {
-                background-color: #5100ba;
-                color: white;
-            }
             
+                padding: 20px 10px;
+                font-size: 18;
+                color: rgb(255, 255, 255);
+            } 
+
+            
+
         </style>
+
     </head>
     <body>
+        
         <h1>{% block heading %}{% endblock %}</h1>
 
         {% block body %}
         {% endblock %}
+
+
     </body>
 </html>

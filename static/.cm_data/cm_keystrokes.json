@@ -104,6 +104,13 @@
             "keyStrokeTimeStamp": "Mon Apr 19 2021 19:32:48",
             "keyStrokeInfo": "#02143b",
             "position": "35,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 39,
+            "keyStrokeTimeStamp": "Thu Apr 29 2021 23:20:48",
+            "keyStrokeInfo": "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.rate {\r\n    float: left;\r\n    height: 46px;\r\n    padding: 0 10px;\r\n}\r\n.rate:not(:checked) > input {\r\n    position:absolute;\r\n    top:-9999px;\r\n}\r\n.rate:not(:checked) > label {\r\n    float:right;\r\n    width:1em;\r\n    overflow:hidden;\r\n    white-space:nowrap;\r\n    cursor:pointer;\r\n    font-size:30px;\r\n    color:#ccc;\r\n}\r\n.rate:not(:checked) > label:before {\r\n    content: '★ ';\r\n}\r\n.rate > input:checked ~ label {\r\n    color: #ffc700;    \r\n}\r\n.rate:not(:checked) > label:hover,\r\n.rate:not(:checked) > label:hover ~ label {\r\n    color: #deb217;  \r\n}\r\n.rate > input:checked + label:hover,\r\n.rate > input:checked + label:hover ~ label,\r\n.rate > input:checked ~ label:hover,\r\n.rate > input:checked ~ label:hover ~ label,\r\n.rate > label:hover ~ input:checked ~ label {\r\n    color: #c59b08;\r\n}",
+            "position": "1,1"
         }
     ]
 }

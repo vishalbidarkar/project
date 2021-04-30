@@ -1,0 +1,25 @@
+{
+    "launch.json": [
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 26 2021 23:08:04",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "6,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 26 2021 23:08:10",
+            "keyStrokeInfo": "{\"name\":\"Python: Flask\",\"type\":\"python\",\"request\":\"launch\",\"module\":\"flask\",\"env\":{\"FLASK_APP\":\"app.py\",\"FLASK_ENV\":\"development\"},\"args\":[\"run\",\"--no-debugger\"],\"jinja\":true},",
+            "position": "7,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Apr 26 2021 23:08:10",
+            "keyStrokeInfo": "\r\n            ",
+            "position": "7,183"
+        }
+    ]
+}
